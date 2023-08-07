@@ -1,0 +1,44 @@
+body {
+    background: linear-gradient(#259812, #5a1aff4f);
+}
+.traffic {
+    background-color: #333;
+    border-radius: 12px;
+    width: 200px;
+    padding: 20px 0;
+    margin: auto;
+    margin-top: 100px;
+
+}
+.gren {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color:red;
+    margin-left: 50px;
+    opacity: .3;
+}
+.yellow {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: yellow;
+    margin-left: 50px;
+    margin-top: 20px;
+    opacity: .3;
+}
+.red {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: green;
+    margin-left: 50px;
+    margin-top: 20px;
+    opacity: .3;
+}
+.stoyka{
+    width: 50px;
+    height: 200px;
+    background-color: #333;
+    margin: auto;
+}
