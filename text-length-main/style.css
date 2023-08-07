@@ -1,0 +1,13 @@
+p{
+    margin-top: 15px;
+    text-align: right;
+}
+textarea{
+    padding: 20px;
+    color: #202020;
+    border: 1.5px solid #b2b2b2;
+    border-radius: 5px;
+}
+.container{
+    width: 200px;
+}
