@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="wrapper">
+        <button class="btn show-btn" id="show-btn">Show modal</button>
+        <!-- modal -->
+        <div class="modal hidden" id="modal">
+            <div class="modal-header">
+                <h3>I love Bmw</h3>
+                <button class="btn close-btn" id="close-btn">
+                    <i class="fas fa-close"></i>
+                </button>
+            </div>
+            <!-- modal body -->
+            <h2 class="modal-title">Modal title</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis facilis nam aliquid neque dolorum ipsa, quae dicta, atque provident fugit, nostrum consectetur cupiditate blanditiis perferendis laborum voluptas iusto a itaque culpa exercitationem nisi? Eaque aliquid id debitis aspernatur a. Maiores, iste? Error consectetur fugiat delectus.</p>
+        </div>
+    </div>
+    <div class="overlay hidden" id="overlay"></div>
+    <script src="./app.js"></script>
+</body>
+</html> 
