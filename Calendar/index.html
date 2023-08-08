@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calendar App Vanilla JS</title>
+    <link rel="stylesheet" href="./style/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=REM&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <section id="section">
+      <div id="container">
+        <div id="header">
+          <div id="monthDisplay"></div>
+          <div>
+            <button id="backButton">Back</button>
+            <button id="nextButton">Next</button>
+          </div>
+        </div>
+        <div id="weekdays">
+          <div class="days"><h1>Yakshanba</h1></div>
+          <div class="days"><h1>Dushanba</h1></div>
+          <div class="days"><h1>Seshanba</h1></div>
+          <div class="days"><h1>Chorshanba</h1></div>
+          <div class="days"><h1>Payshanba</h1></div>
+          <div class="days"><h1>Juma</h1></div>
+          <div class="days"><h1>Shanba</h1></div>
+        </div>
+        <div id="calendar"></div>
+      </div>
+      <div id="newEventModal">
+        <h2>New Event</h2>
+        <input id="eventTitleInput" required placeholder="Event Title"/>
+        <p id="pSave"></p>
+        <button id="saveButton">Save</button>
+        <button id="cancelButton">Cancel</button>
+      </div>
+      <div class="hidden" id="deleteEventModal">
+        <h2>Event</h2>
+        <p id="eventText"></p>
+        <button id="deleteButton">Delete</button>
+        <button id="closeButton">Close</button>
+      </div>
+      <div id="modalBackDrop"></div>
+    </section>
+    <div class="overlay hidden" id="overlay"></div>
+    <script src="./script/script.js"></script>
+  </body>
+</html>
