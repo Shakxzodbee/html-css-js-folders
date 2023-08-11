@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <title>Language Translator</title>
+  <link rel="stylesheet" href="style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+    <div class="wrapper">
+      <div class="text-input">
+        <textarea spellcheck="false" class="from-text" placeholder="Enter text" id="one"></textarea>
+        <textarea spellcheck="false" readonly disabled class="to-text" placeholder="Translation" id="two"></textarea>
+      </div>
+      <ul class="controls">
+        <li class="row from" id="lione">
+          <div class="icons" id="iconsone">
+            <i id="from" class="fas fa-volume-up"></i><i id="fromtwo" class="fas fa-copy"></i>
+          </div>
+          <select id="sel"></select>
+        </li>
+        <li class="exchange"><i class="fas fa-exchange-alt"></i></li>
+        <li class="row to" id="litwo">
+          <select id="sels"></select>
+          <div class="icons" id="iconstwo">
+            <i id="to" class="fas fa-volume-up"></i><i id="tos" class="fas fa-copy"></i>
+          </div>
+        </li>
+      </ul>
+    </div>
+    <button>Translate Text</button>
+  </div>
+  <script src="js/countries.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>
